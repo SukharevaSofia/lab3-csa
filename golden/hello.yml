@@ -1,0 +1,33 @@
+source: |-
+  ; all labels start with _
+  ; r0 - addr of hello world, is an iter to string
+  ; r1 length of hello world
+  ; r2 - current symbol
+      ldc r0 HELLO_WORLD
+      ld r1 r0
+      dec r1
+  _LOOP:
+  ; iter to next char
+      inc r0
+  ; load current symbol into r2
+      ld r2 r0
+  ; out current character
+      out r2
+  ; decrement loop counter
+      dec r1
+  ; loop
+      jge r1 _LOOP
+      hlt
+
+  HELLO_WORLD: "Hello World!"
+
+stdin: |-
+  Hello world!
+
+target: |-
+  {"program": [{"instr": "ldc", "args": [0, 0]}, {"instr": "ld", "args": [1, 0]}, {"instr": "dec", "args": [1]}, {"instr": "inc", "args": [0]}, {"instr": "ld", "args": [2, 0]}, {"instr": "out", "args": [2]}, {"instr": "dec", "args": [1]}, {"instr": "jge", "args": [1, 3]}, {"instr": "hlt", "args": []}], "data": [{"variable_data": "Hello World!"}]}
+
+stdout: |-
+  Hello World!
+
+logs: ./golden/logs/hello.log

@@ -1,0 +1,581 @@
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [119, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: out, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: jump, args: [0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: in, args: [0]
+
+INFO    vm:simulation    output_buffer: ['e', 'q', 'w', 'u', 'e', 'y', 'u', 'q', 'w', 'i', 'y', 'e', 'u', 'q', 'w', 'y', 'e', 'u', 'q', 'y', 'w', 'u', 'i', 'e', 'y', 'q', 'w', 'u', 'i', 'e', 'y', 'u', 'q', 'w', 'y', 'e', 'u', 'q', 'w', 'y', 'u', 'i', 'e', 'y', 'q', 'w', 'u', 'i']

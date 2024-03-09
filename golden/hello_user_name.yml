@@ -1,0 +1,89 @@
+source: |-
+  ldc r0 STR1
+  ld r1 r0
+  dec r1
+  _LOOP1:
+      inc r0
+      ld r2 r0
+      out r2
+      dec r1
+      jge r1 _LOOP1
+
+
+      ldc r0 10
+      out r0
+
+      ldc r0 STR2
+      ld r1 r0
+      dec r1
+
+  _LOOP2:
+      inc r0
+      ld r2 r0
+      out r2
+      dec r1
+      jge r1 _LOOP2
+
+  ; Now we are waiting for user input
+      
+      ldc r4 END
+      ldc r5 10
+  _LOOP3:
+      inc r4
+      in r0
+      sv r0 r4
+      sub r0 r5
+      jne r0 _LOOP3
+
+      ldc r5 END
+      sub r4 r5
+      ldc r5 END
+      sv r4 r5
+
+      ldc r0 END
+      ld r1 r0
+      dec r1
+  _LOOPEH:
+      inc r0
+      ld r2 r0
+      out r2
+      dec r1
+      jge r1 _LOOPEH
+
+
+      ldc r0 STR3
+      ld r1 r0
+      dec r1
+  _LOOP4:
+      inc r0
+      ld r2 r0
+      out r2
+      dec r1
+      jge r1 _LOOP4
+
+      ldc r0 END
+      ld r1 r0
+      dec r1
+  _LOOP5:
+      inc r0
+      ld r2 r0
+      out r2
+      dec r1
+      jge r1 _LOOP5
+
+      hlt
+
+  HELLO_WORLD: "Hello World!"
+  STR1: "> What is your name?"
+  STR2: "< "
+  STR3: "> Hello, "
+  END: "_"
+
+
+stdin: "Alice\n"
+
+target: |-
+  {"program": [{"instr": "ldc", "args": [0, 13]}, {"instr": "ld", "args": [1, 0]}, {"instr": "dec", "args": [1]}, {"instr": "inc", "args": [0]}, {"instr": "ld", "args": [2, 0]}, {"instr": "out", "args": [2]}, {"instr": "dec", "args": [1]}, {"instr": "jge", "args": [1, 3]}, {"instr": "ldc", "args": [0, 10]}, {"instr": "out", "args": [0]}, {"instr": "ldc", "args": [0, 34]}, {"instr": "ld", "args": [1, 0]}, {"instr": "dec", "args": [1]}, {"instr": "inc", "args": [0]}, {"instr": "ld", "args": [2, 0]}, {"instr": "out", "args": [2]}, {"instr": "dec", "args": [1]}, {"instr": "jge", "args": [1, 13]}, {"instr": "ldc", "args": [4, 47]}, {"instr": "ldc", "args": [5, 10]}, {"instr": "inc", "args": [4]}, {"instr": "in", "args": [0]}, {"instr": "sv", "args": [0, 4]}, {"instr": "sub", "args": [0, 5]}, {"instr": "jne", "args": [0, 20]}, {"instr": "ldc", "args": [5, 47]}, {"instr": "sub", "args": [4, 5]}, {"instr": "ldc", "args": [5, 47]}, {"instr": "sv", "args": [4, 5]}, {"instr": "ldc", "args": [0, 47]}, {"instr": "ld", "args": [1, 0]}, {"instr": "dec", "args": [1]}, {"instr": "inc", "args": [0]}, {"instr": "ld", "args": [2, 0]}, {"instr": "out", "args": [2]}, {"instr": "dec", "args": [1]}, {"instr": "jge", "args": [1, 32]}, {"instr": "ldc", "args": [0, 37]}, {"instr": "ld", "args": [1, 0]}, {"instr": "dec", "args": [1]}, {"instr": "inc", "args": [0]}, {"instr": "ld", "args": [2, 0]}, {"instr": "out", "args": [2]}, {"instr": "dec", "args": [1]}, {"instr": "jge", "args": [1, 40]}, {"instr": "ldc", "args": [0, 47]}, {"instr": "ld", "args": [1, 0]}, {"instr": "dec", "args": [1]}, {"instr": "inc", "args": [0]}, {"instr": "ld", "args": [2, 0]}, {"instr": "out", "args": [2]}, {"instr": "dec", "args": [1]}, {"instr": "jge", "args": [1, 48]}, {"instr": "hlt", "args": []}], "data": [{"variable_data": "Hello World!"}, {"variable_data": "> What is your name?"}, {"variable_data": "< "}, {"variable_data": "> Hello, "}, {"variable_data": "_"}]}
+stdout: "> What is your name?\n< Alice\n> Hello, Alice\n"
+
+logs: ./golden/logs/hello_user_name.log

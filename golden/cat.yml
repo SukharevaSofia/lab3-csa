@@ -1,0 +1,16 @@
+source: |-
+  _LOOP:
+    in r0
+    out r0
+    jump _LOOP
+    hlt
+
+stdin: |-
+  eqwueyuqwiyeuqwyeuqywuieyqwuieyuqwyeuqwyuieyqwui
+
+target: |-
+  {"program": [{"instr": "in", "args": [0]}, {"instr": "out", "args": [0]}, {"instr": "jump", "args": [0]}, {"instr": "hlt", "args": []}], "data": []}
+stdout: |-
+  eqwueyuqwiyeuqwyeuqywuieyqwuieyuqwyeuqwyuieyqwui
+
+logs: ./golden/logs/cat.log
