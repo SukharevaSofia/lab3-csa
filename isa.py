@@ -225,7 +225,7 @@ def to_number(arg: str) -> int:
         if arg[0] == "-":
             return -int(arg[3:], 16)
 
-        int(arg[2:], 16)
+        return int(arg[2:], 16)
 
     if is_number(arg):
         if arg[0] == "-":

@@ -1,0 +1,29 @@
+source: |-
+  ; reads in a number as a string from input
+  ; parses it, divides it by two and outputs that
+    ldc r0 10
+    ldc r1 0x30
+  _LOOP:
+    in r2
+    mov r3 r2
+    sub r3 r0
+    jeq r3 _EXIT
+
+    mul r6 r0
+    sub r2 r1
+    add r6 r2
+    jump _LOOP
+  _EXIT:
+    ldc r2 2
+    div r6 r2
+    outn r6
+    hlt
+
+
+stdin: "17\n"
+
+target: |-
+  {"program": [{"instr": "ldc", "args": [0, 10]}, {"instr": "ldc", "args": [1, 48]}, {"instr": "in", "args": [2]}, {"instr": "mov", "args": [3, 2]}, {"instr": "sub", "args": [3, 0]}, {"instr": "jeq", "args": [3, 10]}, {"instr": "mul", "args": [6, 0]}, {"instr": "sub", "args": [2, 1]}, {"instr": "add", "args": [6, 2]}, {"instr": "jump", "args": [2]}, {"instr": "ldc", "args": [2, 2]}, {"instr": "div", "args": [6, 2]}, {"instr": "outn", "args": [6]}, {"instr": "hlt", "args": []}], "data": []}
+stdout: '8'
+
+logs: ./golden/logs/example.log

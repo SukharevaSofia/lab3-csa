@@ -1,0 +1,105 @@
+DEBUG   vm:primary_loop  
+ControlUnit: IP=0 DataPath: regs = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 0, instr: ldc, args: [0, 10]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=1 DataPath: regs = [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 1, instr: ldc, args: [1, 48]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [10, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: in, args: [2]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=3 DataPath: regs = [10, 48, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 3, instr: mov, args: [3, 2]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=4 DataPath: regs = [10, 48, 49, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 4, instr: sub, args: [3, 0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=5 DataPath: regs = [10, 48, 49, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 5, instr: jeq, args: [3, 10]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=6 DataPath: regs = [10, 48, 49, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 6, instr: mul, args: [6, 0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=7 DataPath: regs = [10, 48, 49, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 7, instr: sub, args: [2, 1]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=8 DataPath: regs = [10, 48, 1, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 8, instr: add, args: [6, 2]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=9 DataPath: regs = [10, 48, 1, 39, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 9, instr: jump, args: [2]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [10, 48, 1, 39, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: in, args: [2]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=3 DataPath: regs = [10, 48, 55, 39, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 3, instr: mov, args: [3, 2]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=4 DataPath: regs = [10, 48, 55, 55, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 4, instr: sub, args: [3, 0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=5 DataPath: regs = [10, 48, 55, 45, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 5, instr: jeq, args: [3, 10]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=6 DataPath: regs = [10, 48, 55, 45, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 6, instr: mul, args: [6, 0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=7 DataPath: regs = [10, 48, 55, 45, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 7, instr: sub, args: [2, 1]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=8 DataPath: regs = [10, 48, 7, 45, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 8, instr: add, args: [6, 2]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=9 DataPath: regs = [10, 48, 7, 45, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 9, instr: jump, args: [2]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=2 DataPath: regs = [10, 48, 7, 45, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 2, instr: in, args: [2]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=3 DataPath: regs = [10, 48, 10, 45, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 3, instr: mov, args: [3, 2]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=4 DataPath: regs = [10, 48, 10, 10, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 4, instr: sub, args: [3, 0]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=5 DataPath: regs = [10, 48, 10, 0, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 5, instr: jeq, args: [3, 10]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=10 DataPath: regs = [10, 48, 10, 0, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 10, instr: ldc, args: [2, 2]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=11 DataPath: regs = [10, 48, 2, 0, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 11, instr: div, args: [6, 2]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=12 DataPath: regs = [10, 48, 2, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 12, instr: outn, args: [6]
+
+DEBUG   vm:primary_loop  
+ControlUnit: IP=13 DataPath: regs = [10, 48, 2, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+address: 13, instr: hlt, args: []
+
+INFO    vm:simulation    output_buffer: ['8']
