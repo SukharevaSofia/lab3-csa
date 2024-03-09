@@ -19,6 +19,12 @@ class Alu:
         self.right = 0
         self.out = 0
 
+    def inc(self):
+        self.out = self.left + 1
+
+    def dec(self):
+        self.out = self.left - 1
+
     def add(self):
         self.out = self.left + self.right
 
@@ -73,7 +79,7 @@ class DataPath:
         self.addr = self.alu.out
 
     def load_from_addr(self):
-        self.mux_left(self.memory[self.addr])
+        self.alu.out = self.memory[self.addr]
 
     def write_to_addr(self):
         self.memory[self.addr] = self.alu.out
@@ -138,20 +144,26 @@ class ControlUnit:
                 self.dp.regfile[args[0]] = args[1]
 
             case "ld":
-                addr = self.dp.regfile[args[1]]
-                val = self.dp.memory[addr]
-                self.dp.regfile[args[0]] = val
+                self.dp.mux_left(args[1])
+                self.dp.latch_addr()
+                self.dp.load_from_addr()
+                self.dp.route_toreg(args[0])
 
             case "sv":
-                addr = self.dp.regfile[args[1]]
-                val = self.dp.regfile[args[0]]
-                self.dp.memory[addr] = val
+                self.dp.mux_left(args[1])
+                self.dp.latch_addr()
+                self.dp.mux_left(args[0])
+                self.dp.write_to_addr()
 
             case "inc":
-                self.dp.regfile[args[0]] += 1
+                self.dp.mux_left(args[0])
+                self.dp.alu.inc()
+                self.dp.route_toreg(args[0])
 
             case "dec":
-                self.dp.regfile[args[0]] -= 1
+                self.dp.mux_left(args[0])
+                self.dp.alu.dec()
+                self.dp.route_toreg(args[0])
 
             case "add":
                 self.dp.mux_left(args[0])
@@ -200,7 +212,8 @@ class ControlUnit:
         own = "ControlUnit: IP={}".format(self.pc)
         dp = repr(self.dp)
         instr = self.program[self.pc]
-        instr = "address: {}, instr: {}, args: {}".format(self.pc, instr["instr"], instr["args"])
+        instr = "address: {}, instr: {}, args: {}".format(
+            self.pc, instr["instr"], instr["args"])
         return "\n{} {}\n{}\n".format(own, dp, instr)
 
 
