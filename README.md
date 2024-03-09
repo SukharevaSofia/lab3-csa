@@ -1,4 +1,4 @@
-# Lab
+# Lab3 CSA
 
 ## Вариант
 - Сухарева Софья Сергеевна P33131
@@ -103,12 +103,12 @@ HELLO_WORLD: "Hello World!"
 
 ## Транслятор
 ```
-python translator.py input_source output_bin
+python translator.py input_source output_struct
 ```
 
 ## Модель
 ```
-python vm.py input_bin input_text
+python vm.py input_struct input_text
 ```
 
 ControlUnit
