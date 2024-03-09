@@ -237,6 +237,8 @@ if __name__ == "__main__":
     _, target_file_name, input_file_name = sys.argv
     logging.getLogger().setLevel(logging.DEBUG)
     logging.basicConfig(
-        filename="./golden/logs/example.log", filemode="w", format="%(levelname)-7s %(module)s:%(funcName)-13s %(message)s"
+        filename="./golden/logs/example.log",
+        filemode="w",
+        format="%(levelname)-7s %(module)s:%(funcName)-13s %(message)s",
     )
     run_vm(target_file_name, input_file_name)
