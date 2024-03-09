@@ -7,7 +7,29 @@
 
 ## Язык программирования
 Язык ассемблера
+### Форма Бакуса-Наура
 
+```
+<program> ::= <statement>*
+<statement> ::= <label> | <instruction> | <comment> | <string_declaration>
+
+<label> ::= '_'<name>':'
+<instruction> ::= <mnemonic> ( <operand> | (<operand> <operand> ) )? <comment>?
+<comment> ::= ';' .*
+<string-declaration> ::= <name>: '"' .* '"'
+
+<mnemonic> ::= 'add' | 'sub' | ... | 'hlt'
+<operand> ::= <register> | <number> | <name> | '_'<name>
+<register> ::= "r0" | "r1" | ... | "r15"
+
+<number> ::= <digit>+ | <hex_number>
+<hex_number> ::= '0x' (<digit> | 'A' | ... | 'F')+
+<name> ::= <upper_letter> (<upper_letter> | '_' | <digit>)*
+
+<digit> ::= "0" | "1" | ... | "9"
+<upper_letter> ::= "A" | "B" | ... | "Z"
+<lower_letter> ::= "a" | "b" | ... | "z"
+```
 Стратегия вычисления: последовательное исполнение инструкций ассемблера
 Виды литералов: инструкции, строки, числа
 
