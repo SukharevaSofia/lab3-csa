@@ -5,7 +5,7 @@ import json
 import logging
 import sys
 
-from exceptions import ParsingError
+from errors import ParsingError
 
 
 def read_code(file_name):

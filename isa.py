@@ -4,7 +4,7 @@ import enum
 import string
 import typing
 
-from exceptions import CompileError, ParsingError
+from errors import CompileError, ParsingError
 from typeguard import typechecked
 
 registers: list[str] = [f"r{i}" for i in range(16)]

@@ -4,7 +4,7 @@ import json
 import re
 import sys
 
-from exceptions import CompileError, ParsingError
+from errors import CompileError, ParsingError
 from isa import (
     get_isa_by_instruction,
     get_variable_data,
