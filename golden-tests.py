@@ -36,5 +36,4 @@ def test_asm(golden, caplog):
 
         assert target == golden["target"]
         assert stdout.getvalue() == golden["stdout"]
-        print(logs)
         assert caplog.text == logs
