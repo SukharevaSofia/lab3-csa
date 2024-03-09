@@ -212,8 +212,7 @@ class ControlUnit:
         own = "ControlUnit: IP={}".format(self.pc)
         dp = repr(self.dp)
         instr = self.program[self.pc]
-        instr = "address: {}, instr: {}, args: {}".format(
-            self.pc, instr["instr"], instr["args"])
+        instr = "address: {}, instr: {}, args: {}".format(self.pc, instr["instr"], instr["args"])
         return "\n{} {}\n{}\n".format(own, dp, instr)
 
 
