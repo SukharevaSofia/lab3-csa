@@ -187,8 +187,11 @@ def is_hex(arg: str) -> bool:
 
 @typechecked
 def is_string(arg: str) -> bool:
-    for char in arg:
-        if not char.isupper() and not char == "_" and not char.isdigit():
+    if not arg[0].isupper():
+        return False
+
+    for i in range(1, len(arg)):
+        if not arg[i].isupper() and not arg[i] == "_" and not arg[i].isdigit():
             return False
 
     return True
